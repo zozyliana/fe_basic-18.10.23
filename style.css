@@ -1,0 +1,54 @@
+* {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: mediumseagreen;
+}
+
+h1 {
+  text-emphasis: open;
+  text-emphasis-color: white;
+  text-decoration: solid;
+  color: darkslateblue;
+}
+
+ul li {
+  border-radius: 5px;
+  border-color: indigo;
+  color: orange;
+}
+
+h2 {
+  color: lightseagreen;
+}
+
+p {
+  text-shadow: 18px;
+  color: darkslategrey;
+  text-decoration: wavy;
+}
+
+a.description {
+  opacity: initial;
+  color-scheme: blue;
+  text-align: end;
+}
+
+q {
+  text-align: right;
+  lighting-color: forestgreen;
+  text-decoration: dashed;
+}
+
+i {
+  text-transform: lowercase;
+  text-decoration-color: darkblue;
+}
+
+small {
+  text-decoration: dotted;
+  color: coral;
+}
