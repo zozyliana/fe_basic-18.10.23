@@ -1,20 +1,20 @@
 * {
   margin: auto;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; /* Параметри для структури сторінки */
 }
 
 body {
-  background-color: lightskyblue;
+  background-color: lightskyblue; /* Забарвлення фону */
 }
 
-h1.center {
+.center {
   text-align: center;
   text-emphasis: open;
   text-shadow: 0px 0px 35px;
   text-emphasis-color: white;
   text-decoration: solid;
-  color: darkslateblue;
+  color: darkslateblue; /* Розташування другого заголовка h2 посередині */
 }
 
 ul li {
@@ -22,47 +22,42 @@ ul li {
   border-width: 2px;
   color: darkslategrey;
   border-color: white;
-  border-style: dashed;
+  border-style: dashed; /* Створення списку для переліку селекторів */
 }
 
-h2 {
+.oblique {
   color: blueviolet;
-  font-style: oblique;
   text-align: center;
+  font-style: oblique; /* Оформлення тексту за допомогою класу "нахилений" */
 }
 
 p {
   color: midnightblue;
   font-style: initial;
-  font-size: large;
+  font-size: large; /* "Основний текст" */
 }
 
 #p1 {
   color: rebeccapurple;
   font-style: italic;
-  text-decoration: wavy;
+  text-decoration: wavy; /* Впізнає текст завдяки наведеному #p1, що означає перший рядок тексту */
 }
 
 a [href="https://google.com"]
 {
   color-scheme: lightyellow;
-  opacity: inherit;
-}
-
-.inherit {
-  color: slateblue;
-  font-size: large;
+  opacity: inherit; /* Посилання на Google у якості атрибуту */
 }
 
 q {
   font-style: oblique;
   color: darkcyan;
   text-shadow: 0px 0px 18px;
-  font-size: x-large;
+  font-size: x-large; /* Позначення рядка взято в цитату */
 }
 
 .white-text {
   color: white;
   font-size: x-large;
-  font-style: italic;
+  font-style: italic; /* Виділення білим кольором частини тексту посередині. */
 }
