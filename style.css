@@ -45,6 +45,8 @@ p {
 
 a [href="https://google.com"]
 {
+a [href="https://google.com"]
+{
   color-scheme: lightyellow;
   opacity: inherit; /* Посилання на Google у якості атрибуту */
 }
