@@ -40,6 +40,7 @@ p {
 #p1 {
   color: rebeccapurple;
   font-style: italic;
+  text-decoration: wavy;
 }
 
 a [href="https://google.com"]
