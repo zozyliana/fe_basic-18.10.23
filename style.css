@@ -49,6 +49,11 @@ a [href="https://google.com"]
   opacity: inherit;
 }
 
+.inherit {
+  color: slateblue;
+  font-size: large;
+}
+
 q {
   font-style: oblique;
   color: darkcyan;
