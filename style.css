@@ -1,14 +1,15 @@
 * {
   margin: auto;
-  padding: auto;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: mediumseagreen;
+  background-color: lightskyblue;
 }
 
 h1 {
+  text-align: center;
   text-emphasis: open;
   text-emphasis-color: white;
   text-decoration: solid;
@@ -16,39 +17,40 @@ h1 {
 }
 
 ul li {
-  border-radius: 5px;
-  border-color: indigo;
-  color: orange;
+  text-align: center;
+  border-width: 2px;
+  color: darkslategrey;
+  border-color: white;
+  border-style: dashed;
 }
 
 h2 {
-  color: lightseagreen;
+  color: blueviolet;
+  font-style: oblique;
+  text-align: center;
 }
 
 p {
-  text-shadow: 18px;
   color: darkslategrey;
   text-decoration: wavy;
 }
 
-a [href="http:google.com"] {
-  opacity: initial;
-  color-scheme: blue;
-  text-align: end;
+a [href="https://google.com"] {
+  color-scheme: lightyellow;
+  opacity: inherit;
 }
 
 q {
-  text-align: right;
-  lighting-color: forestgreen;
-  text-decoration: dashed;
+  font-style: oblique;
+  color: darkcyan;
+  text-shadow: 0px 0px 18px;
 }
 
 i {
   text-transform: lowercase;
-  text-decoration-color: darkblue;
+  color: mintcream;
 }
 
 small {
-  text-decoration: dotted;
   color: coral;
 }
