@@ -36,8 +36,7 @@ p {
   text-decoration: wavy;
 }
 
-a [href="https://google.com"]
-{
+a [href="https://google.com"] {
   color-scheme: lightyellow;
   opacity: inherit;
 }
