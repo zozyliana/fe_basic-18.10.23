@@ -8,7 +8,7 @@ body {
   background-color: lightskyblue;
 }
 
-h1.center {
+.center {
   text-align: center;
   text-emphasis: open;
   text-shadow: 0px 0px 35px;
@@ -25,10 +25,10 @@ ul li {
   border-style: dashed;
 }
 
-h2 {
+.oblique {
   color: blueviolet;
-  font-style: oblique;
   text-align: center;
+  font-style: oblique;
 }
 
 p {
@@ -47,11 +47,6 @@ a [href="https://google.com"]
 {
   color-scheme: lightyellow;
   opacity: inherit;
-}
-
-.inherit {
-  color: slateblue;
-  font-size: large;
 }
 
 q {
