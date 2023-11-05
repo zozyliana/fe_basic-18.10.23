@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: slateblue;
+  margin-left: 18px;
+}
+
+.img-border-radius {
+  border-radius: 10px 10px 0 0;
+}
+
+.card {
+  background-color: aliceblue;
+  max-width: 350px;
+  display: inline-block;
+  margin: 35px 8px 35px 8px;
+  border: 2px solid;
+  border-radius: 10px 10px;
+  border-color: aliceblue;
+  box-shadow: 3px 0 3px 0;
+}
+
+.container {
+  margin: auto;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.card-description {
+  color: darkslateblue;
+  font-size: x-large;
+  font-style: oblique;
+}
+
+.card-title {
+  color: darkslateblue;
+  font-style: italic;
+  font-size: xx-large;
+}
+
+h3 {
+  font-style: initial;
+}
+
+img {
+  max-width: 100%;
+}
