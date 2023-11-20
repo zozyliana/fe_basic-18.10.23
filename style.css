@@ -1,26 +1,111 @@
 * {
+  padding: 0;
   margin: 0;
-  padding: inherit;
   box-sizing: border-box;
 }
 
-table {
-  color: black;
-  border: 3px solid;
-  padding: 0.25rem;
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: #c4c4c4;
+}
+
+.py-rem {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: calc(1110px + 2rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
   margin-left: auto;
   margin-right: auto;
+  overflow: auto;
 }
 
-.caption {
-  padding: 10px;
-  caption-side: bottom;
+.clearfix::after {
+  visibility: hidden;
+  content: "";
+  clear: both;
+  display: block;
 }
 
-h1 {
+.hidden {
+  display: block;
+  display: none !important;
+}
+
+.float-left {
+  float: left;
+  margin-right: 1rem;
+}
+
+.float-right {
+  float: right;
+  margin-left: 1rem;
+}
+
+.wrapper {
+  background: #e6e6e6;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background: #fc8f8f;
+  color: #fff;
   text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 200px;
 }
 
-.bg-pink {
-  background-color: rgb(247, 4, 101);
+.square.small {
+  width: 100px;
+  height: 100px;
+  font-size: 36px;
+  line-height: 100px;
+}
+
+.float-right1 {
+  position: absolute;
+  display: block;
+  right: 332px;
+  margin-right: 1rem;
+}
+
+.float-right2 {
+  position: absolute;
+  display: block;
+  right: 216px;
+  margin-right: 1rem;
+}
+
+.float-right3 {
+  position: absolute;
+  display: block;
+  right: 100px;
+  margin-right: 1rem;
+}
+
+.float-right4 {
+  position: absolute;
+  display: block;
+  right: 0px;
+  margin-left: 1rem;
+}
+
+.float-right5 {
+  position: absolute;
+  display: block;
+  right: 216px;
+  margin-left: 1rem;
+}
+
+.float-right6 {
+  position: absolute;
+  display: block;
+  right: 0px;
+  margin-left: 1rem;
 }
