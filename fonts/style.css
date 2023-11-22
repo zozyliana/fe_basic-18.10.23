@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  max-width: 1100px;
+  max-height: 800px;
+  margin: auto;
+}
 html {
   font-family: "Roboto", sans-serif;
   background-color: #c4c4c4;
@@ -29,11 +34,7 @@ html {
   content: "";
   clear: both;
   display: block;
-}
-
-.hidden {
-  display: block;
-  display: none !important;
+  width: 1100px;
 }
 
 .float-left {
@@ -42,12 +43,13 @@ html {
 }
 
 .float-right {
-  float: right;
+  float: left;
   margin-left: 1rem;
 }
 
 .wrapper {
   background: #e6e6e6;
+  float: right;
 }
 
 .square {
@@ -66,46 +68,5 @@ html {
   height: 100px;
   font-size: 36px;
   line-height: 100px;
-}
-
-.float-right1 {
-  position: absolute;
-  display: block;
-  right: 332px;
-  margin-right: 1rem;
-}
-
-.float-right2 {
-  position: absolute;
-  display: block;
-  right: 216px;
-  margin-right: 1rem;
-}
-
-.float-right3 {
-  position: absolute;
-  display: block;
-  right: 100px;
-  margin-right: 1rem;
-}
-
-.float-right4 {
-  position: absolute;
-  display: block;
-  right: 0px;
-  margin-left: 1rem;
-}
-
-.float-right5 {
-  position: absolute;
-  display: block;
-  right: 216px;
-  margin-left: 1rem;
-}
-
-.float-right6 {
-  position: absolute;
-  display: block;
-  right: 0px;
-  margin-left: 1rem;
+  float: left;
 }
