@@ -1,0 +1,256 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --container-width: 1920px;
+  --basic-space: 12rem;
+  --primary-color: #727272;
+  --secondary-color: #000000;
+  --bg-color: #eeeff1;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: #f9f9f9;
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 100%;
+  max-width: calc(var(--container-width) + var(--basic-space) * 2);
+  padding-left: var(--basic-space);
+  padding-right: var(--basic-space);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.py-rem {
+  padding-top: var(--basic-space);
+  padding-bottom: var(--basic-space);
+}
+
+/*------- HEADER ---------------------------------------------------------------*/
+
+.header {
+  background-color: var(--bg-color);
+  padding-top: 51px;
+  padding-bottom: 100px;
+}
+
+.nav-link1 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.25px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.nav-link1:hover {
+  color: var(--Accent, #34547a);
+}
+
+.nav-link1 + .nav-link {
+  margin-left: 19px;
+}
+
+.nav-link + .nav-link {
+  margin-left: 19px;
+}
+
+/*-------- FIRST SECTION ---------------------------------------------------------------*/
+
+.first-section {
+  background-color: var(--bg-color);
+  padding-top: 41px;
+  padding-bottom: 100px;
+}
+
+h1.main-title {
+  color: #000;
+  font-size: 48px;
+  font-weight: 500;
+  max-height: 45px;
+  line-height: 1.6;
+  margin-bottom: 60px;
+}
+
+.p.main-description {
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 65px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  display: inline-block;
+  width: 100%;
+  max-width: 225px;
+  min-height: 65px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  border: 2px solid;
+  padding-top: 19px;
+  padding-bottom: 20px;
+  color: #fff;
+  background-color: #34547a;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  margin-top: 65px;
+}
+
+/*----------- ABOUT SECTION -------------------------------------------------------*/
+
+.about-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+h2.text-title {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.description1 {
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: center;
+}
+
+p.description {
+  color: #727272;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.25px;
+}
+
+/*---------- FEATURES-SECTION ---------------------------------------------------------*/
+
+.features-section {
+  background: var(--Accent, #34547a);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+img {
+  padding-right: 10px;
+  width: 51%;
+  float: left;
+}
+
+.row {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card {
+  margin-left: 45px;
+  display: inline-block;
+}
+
+h3.items {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.6;
+  padding-right: 20px;
+}
+
+p.project {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  padding-left: calc(20px + 45px);
+}
+
+/*------- CONTENT - SECTION ----------------------------------------------*/
+
+.content-section {
+  background-color: var(--bg-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+h2.text-title {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+
+.p.description {
+  color: #727272;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.25px;
+  margin-bottom: 50px;
+}
+
+.video {
+  max-width: 1110px;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 57px;
+  padding-bottom: 50px;
+}
+
+/*--------------- FOOTER -----------------------------------------------*/
+
+.footer {
+  background: var(--Accent, #34547a);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+}
+
+h3 {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.6;
+}
