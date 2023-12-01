@@ -5,7 +5,7 @@
 }
 
 :root {
-  --container-width: 1440px;
+  --container-width: 1280px;
   --basic-space: 7rem;
   --primary-color: #727272;
   --secondary-color: #000000;
@@ -166,13 +166,6 @@ img {
   padding-right: 10px;
   width: 51%;
   float: left;
-}
-
-.row {
-  display: inline-block;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .card {
