@@ -5,8 +5,8 @@
 }
 
 :root {
-  --container-width: 1920px;
-  --basic-space: 12rem;
+  --container-width: 1440px;
+  --basic-space: 7rem;
   --primary-color: #727272;
   --secondary-color: #000000;
   --bg-color: #eeeff1;
@@ -25,15 +25,6 @@ body {
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
-}
-
-a {
-  color: #000;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.6;
-  letter-spacing: 1.6px;
-  text-transform: uppercase;
 }
 
 .container {
@@ -58,6 +49,16 @@ a {
   padding-bottom: 100px;
 }
 
+.nav-link {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.25px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 .nav-link1 {
   color: #000;
   font-size: 16px;
@@ -65,6 +66,7 @@ a {
   line-height: 26.25px;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .nav-link1:hover {
@@ -73,10 +75,12 @@ a {
 
 .nav-link1 + .nav-link {
   margin-left: 19px;
+  text-decoration: none;
 }
 
 .nav-link + .nav-link {
   margin-left: 19px;
+  text-decoration: none;
 }
 
 /*-------- FIRST SECTION ---------------------------------------------------------------*/
@@ -105,6 +109,7 @@ h1.main-title {
   margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
+  text-align: left;
 }
 
 button {
@@ -139,14 +144,6 @@ h2.text-title {
   font-size: 32px;
   font-weight: 500;
   line-height: 1.6;
-}
-
-.description1 {
-  color: #727272;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.6;
-  text-align: center;
 }
 
 p.description {
@@ -243,13 +240,13 @@ h2.text-title {
   color: #fff;
 }
 
-h3 {
+h3.author {
   font-size: 21px;
   font-weight: 500;
   line-height: 1.6;
 }
 
-.p {
+.p.release {
   font-size: 13px;
   font-weight: 400;
   line-height: 1.6;
