@@ -34,7 +34,8 @@ body {
   padding-right: var(--basic-space);
   margin-left: auto;
   margin-right: auto;
-  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 .py-rem {
@@ -42,6 +43,7 @@ body {
   padding-bottom: var(--basic-space);
 }
 
+/* ---------------------------------------------------------------------------------------------------------------- */
 .flex {
   display: flex;
 }
@@ -50,7 +52,7 @@ body {
   align-items: center;
 }
 
-.justify-beetween {
+.justify-between {
   justify-content: space-between;
 }
 
@@ -84,7 +86,6 @@ body {
   font-size: 36px;
   font-weight: 400;
   line-height: 1.8;
-  flex-direction: row;
   text-decoration: none;
 }
 
@@ -94,7 +95,6 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.8;
-  flex-direction: row;
   text-decoration: none;
 }
 
@@ -112,7 +112,7 @@ body {
 
 .first-section {
   background-color: var(--bg-color);
-  padding-top: 100px;
+  padding-top: 0px;
   padding-bottom: 78px;
 }
 
@@ -124,6 +124,7 @@ h1.main-title {
   max-height: 45px;
   line-height: 1.8;
   margin-bottom: 60px;
+  margin-top: 100px;
 }
 
 p.main-description {
@@ -131,10 +132,9 @@ p.main-description {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.8;
-  max-width: 540px;
   max-height: 87px;
-  margin-top: 60px;
-  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 button {
@@ -142,7 +142,6 @@ button {
   width: 100%;
   max-width: 190px;
   max-height: 60px;
-  text-align: center;
   font-size: 18px;
   font-weight: 400;
   border: 2px solid;
@@ -160,7 +159,6 @@ button {
   min-height: 60px;
   font-size: 18px;
   font-weight: 400;
-  text-align: center;
   border: 2px solid;
   padding-top: 20px;
   padding-bottom: 19px;
@@ -174,11 +172,11 @@ button + .btn1 {
 }
 
 img {
-  max-width: 540px;
   max-height: 670px;
-  position: relative;
-  left: 48%;
-  transform: translateY(-58.5%);
+}
+
+.wrapper {
+  max-width: 540px;
 }
 
 /*----------- ABOUT SECTION -------------------------------------------------------*/
@@ -200,45 +198,164 @@ h2.text-title {
 
 p.description {
   color: #161616;
-  text-align: center;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.8;
-  max-width: 540px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /*---------- FEATURES-SECTION ---------------------------------------------------------*/
 
 .features-section {
   padding-top: 80px;
-  padding-bottom: 120px;
+  padding-bottom: 80px;
   background-color: var(--secondary-background);
 }
 
 .row {
-  position: relative;
+  gap: 45px;
 }
 
 .card {
-  margin-left: 19px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
 }
 
-svg {
-  justify-content: center;
+embed {
+  color: #161616;
+  padding-bottom: 20px;
 }
 
 h5.card-name {
   color: #161616;
   font-family: "Montserrat-Medium";
   font-size: 18px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.8;
-  text-align: center;
 }
+
+/*------------SECOUND - SECTION--------------------------------------------*/
+
+.secound-section {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+h2.text-title {
+  color: #161616;
+  font-family: "vetrino";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-bottom: 60px;
+}
+
+p.text-description {
+  color: #161616;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+img {
+  max-height: 670px;
+}
+
 /*------- CONTENT - SECTION ----------------------------------------------*/
 
+.content-section {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+h2.content-title {
+  color: #161616;
+  font-family: "vetrino";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.row {
+  flex-direction: row;
+}
+
+img.flowers {
+  max-width: 320px;
+  max-height: 402px;
+}
+
+.card-image {
+  max-width: 350px;
+  min-height: 510px;
+  background: #81a36b;
+  padding: 15px 15px 15px 15px;
+  margin-top: 80px;
+}
+
+p.card-description {
+  color: #161616;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
+  max-width: 161px;
+  margin-top: 23px;
+}
 /*--------------- FOOTER -----------------------------------------------*/
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--secondary-background);
+}
+
+.contacts-wrapper {
+  color: #161616;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.8;
+  flex-direction: column;
+  display: flex;
+}
+
+.contacts {
+  justify-self: center;
+  display: flex;
+}
+
+.contacts-name {
+  color: #161616;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+h2.title {
+  color: #161616;
+  font-family: "vetrino";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.socials-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+p.socials {
+  margin-bottom: 40px;
+  color: #161616;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.realise {
+  color: #161616;
+  font-family: "Montserrat-Medium";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.8;
+}
