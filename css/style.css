@@ -5,7 +5,7 @@
 }
 
 :root {
-  --container-width: 1440px;
+  --container-width: 1140px;
   --basic-space: 7rem;
   --text-color: #161616;
   --basic-background: #d8d8d6;
@@ -289,7 +289,7 @@ img.flowers {
   max-width: 350px;
   min-height: 510px;
   background: #81a36b;
-  padding: 15px 15px 15px 15px;
+  padding: 15px;
   margin-top: 80px;
 }
 
